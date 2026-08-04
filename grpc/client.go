@@ -3,7 +3,7 @@ package permifygrpc
 import (
 	"google.golang.org/grpc"
 
-	pclient "buf.build/gen/go/permifyco/permify/grpc/go/base/v1/basev1grpc"
+	pclient "github.com/Permify/permify/pkg/pb/base/v1"
 )
 
 // Client - Permify client

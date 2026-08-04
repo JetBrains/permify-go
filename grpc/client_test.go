@@ -13,7 +13,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	pservice "buf.build/gen/go/permifyco/permify/protocolbuffers/go/base/v1"
+	pservice "github.com/Permify/permify/pkg/pb/base/v1"
 )
 
 func TestClient(t *testing.T) {
